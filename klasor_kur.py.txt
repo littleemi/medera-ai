@@ -1,0 +1,14 @@
+import os
+
+# PyTorch'un resimleri otomatik etiketlemesi için gereken klasör ağacı
+klasorler = [
+    "dataset/train/kedi",
+    "dataset/train/panda",
+    "dataset/val/kedi",
+    "dataset/val/panda"
+]
+
+for klasor in klasorler:
+    os.makedirs(klasor, exist_ok=True)
+
+print("Veri seti klasörleri başarıyla oluşturuldu! İçlerini doldurmaya hazırız.")

@@ -1,0 +1,19 @@
+# Sanal ortam ve Python önbelleği
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Ağır model, veri seti ve veritabanı dosyaları
+*.pth
+*.pt
+*.h5
+*.onnx
+dataset/
+rag_db/
+tip_kitaplari/
+*.pdf
+projefigma/
+.gradio/
+New Text Document.txt
